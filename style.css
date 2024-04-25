@@ -6,7 +6,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* Chưa hiểu dòng này cần xem lại */
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
@@ -32,8 +31,6 @@ body {
     position: relative;   
 }
 
-/* Đoạn ::before này cần phải xem lại*/
-
 .profile-card::before {
     content: "";
     position: absolute;
@@ -58,7 +55,6 @@ body {
 .image .profile-img {
     height: 100%;
     width: 100%;
-    /* Chưa hiểu dòng này cần xem lại */
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid #fff;
@@ -97,7 +93,6 @@ body {
     border-radius: 50%;
     margin: 0 8px;
     background-color: #4070f4;
-    /* Vẫn chưa hiểu dòng này */
     text-decoration: none;
 }
 
@@ -144,18 +139,13 @@ body {
     margin: 0 10px;
     padding: 8px 24px;
     background-color: #4070f4;
-    /* Thay đổi hình dạng của con trỏ chuột khi di chuyển vào */ 
     cursor: pointer;
-    /* Đoạn này chuyển đổi hiệu ứng của một button */ 
     transition: all 0.3s ease;
 }
 
-/* Khi người dùng di chuột qua một nút thì nó sẽ thay đổi màu sắc của nút đó */
 .buttons .button:hover {
     background-color: #0e4bf1;
 }
-
-/* Kinh nghiệm rút ra khi dùng flex + span thì nó sẽ nằm trong cùng một hàng*/
 
 .profile-card .analytics {
     display: flex;
