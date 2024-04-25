@@ -1,2 +1,2 @@
 # Profile-Card-UI-Design
-CodingLab #1
+CodingLab #1 - ReponsiveProfileCard
